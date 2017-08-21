@@ -52,7 +52,7 @@ $ npm install babel-plugin-transform-constant-string
 
 **.babelrc**
 
-```json
+```json5
 {
   "plugins": ["transform-constant-string", {
     "exports": true, // boolean, whether to export the variable, default is false
