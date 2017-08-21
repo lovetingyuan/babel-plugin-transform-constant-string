@@ -74,3 +74,6 @@ require("babel-core").transform("code", {
   plugins: ["transform-constant-string"]
 });
 ```
+
+### license
+MIT
