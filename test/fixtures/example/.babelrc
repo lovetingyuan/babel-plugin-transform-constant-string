@@ -1,5 +1,5 @@
 {
   "plugins": [
-    ["../../../src", { "exportCallName": "ec", "callName": "hh" }]
+    ["../../../src", { "exportCallName": "ecn", "callName": "cn" }]
   ]
 }

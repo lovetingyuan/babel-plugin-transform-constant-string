@@ -1,18 +1,19 @@
-ec(HELLO_WORLD)
+ecn(HELLO_WORLD)
+ecn(FOO, BAR)
 
 function foo() {
   const bar = 'foo-bar'
-  CONST(THIS_IS_A_CONSTANT_STRING_VALUE)
+  cn(THIS_IS_A_CONSTANT_STRING_VALUE)
   console.log('other code...');
-  hh(
+  cn(
     A_FOO,
     B_BAR,
     C_FOO_BAR
   )
-  return bar
+  return THIS_IS_A_CONSTANT_STRING_VALUE + A_FOO
 }
 
-CONST(
+cn(
   D_FOO,
   E_BAR
 )
