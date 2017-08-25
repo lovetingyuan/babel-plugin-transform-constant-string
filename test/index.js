@@ -20,7 +20,7 @@ describe('transform constant string variable', () => {
       const expected = fs.readFileSync(
           path.join(fixtureDir, 'expected.js')
       ).toString();
-      console.log('--' + normalize(actual) + '--*****--' + normalize(expected) + '--')
+      // console.log('--' + normalize(actual) + '--*****--' + normalize(expected) + '--')
       assert.equal(normalize(actual), normalize(expected));
     });
   });

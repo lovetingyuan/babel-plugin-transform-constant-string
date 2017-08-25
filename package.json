@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-constant-string",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "transform constant string variable",
   "repository": {
     "type": "git",

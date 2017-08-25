@@ -55,8 +55,8 @@ $ npm install babel-plugin-transform-constant-string
 ```json5
 {
   "plugins": ["transform-constant-string", {
-    "exports": true, // boolean, whether to export the variable, default is false
-    "name": "constant" // string, which callee to be transformed, default is "constant"
+    "callName": "CONST" // string, which callee to be transformed, default is "CONST",
+    "exportCallName": "CONSPORT" // string, which will add `export` for the variable, default is "CONSPORT"
   }]
 }
 ```
