@@ -7,13 +7,13 @@ transform constant string variable
 **In**
 
 ```js
-constant(HELLO_WORLD)
+CONSPORT(HELLO_WORLD)
 
 function foo() {
   const bar = 'foo-bar'
-  constant(THIS_IS_A_CONSTANT_STRING_VALUE)
+  CONST(THIS_IS_A_CONSTANT_STRING_VALUE)
   console.log('other code...');
-  constant(
+  CONST(
     A_FOO,
     B_BAR,
     C_FOO_BAR
